@@ -97,7 +97,7 @@ function createRock(x) {
 /**
  * End the game by clearing `gameInterval`,
  * removing all ROCKS from the DOM,
- * and removing the `moveDodger` event listener.
+ * and removing the `moveDodgem,  r` event listener.
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
@@ -109,7 +109,7 @@ function endGame() {
   
 }
 
-function moveDodger(e) {
+function moveDo dger(e) {
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
