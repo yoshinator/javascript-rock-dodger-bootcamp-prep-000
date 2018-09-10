@@ -75,7 +75,7 @@ function createRock(x) {
        while(rock.bottom > 0){
            if (checkCollision){
        endGame()
-     }else window.requestAnimationFrame(step)
+     }else window.requestAnimationFrame(moveRock)
     }
   }
 
