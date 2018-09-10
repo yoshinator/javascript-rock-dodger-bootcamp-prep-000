@@ -73,7 +73,7 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
        while(rock.bottom > 0){
-           if (checkCollision){
+           if (checkCollision(rock)){
        endGame()
      }else window.requestAnimationFrame(moveRock)
     }
